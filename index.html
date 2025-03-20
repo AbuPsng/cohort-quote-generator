@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="main-container">
+      <section id="quote-btn-container">
+        <div id="quote-container">
+          <h1>Quote of the day</h1>
+          <p id="quote">I am the quote</p>
+          <div id="quote-writer-holder">
+            <div id="dash"></div>
+            <span id="quote-writer">By Abu</span>
+          </div>
+        </div>
+        <div id="line"></div>
+        <div id="icon-btn-container">
+          <div id="icon-holder">
+            <button id="copy-btn" class="icon">
+              <img src="./assets/icons/copy.png" class="icon-img" alt="" />
+            </button>
+            <button id="share-btn" class="icon">
+              <img src="./assets/icons/twitter.png" class="icon-img" alt="" />
+            </button>
+            <a id="export-btn" class="icon">
+              <img src="./assets/icons/export.png" class="icon-img" alt="" />
+            </a>
+          </div>
+          <button id="new-quote-btn">New Quote</button>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
